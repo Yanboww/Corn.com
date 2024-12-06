@@ -70,6 +70,18 @@ getFirst4()
         div.appendChild(chat)
         div.appendChild(heart)
         div.appendChild(retweeet)
+        if(i == 2)
+        {
+            const commentU = await fetch("https://jsonplaceholder.typicode.com/users/"+(i+2))
+            const commentUJ = await commentU.json()
+            let commentUP = document.createElement("p")
+            commentUP.id = "user"
+            commentUP = "@" + JSON.stringify(commentUJ.userName)
+            div.appendChild(commentUP)
+            const commentC = await fetch("https://jsonplaceholder.typicode.com/comments/3")
+            const commentCJ = await commentC.json()
+
+        }
         div.id="posts"
         document.body.appendChild(div)
     }
