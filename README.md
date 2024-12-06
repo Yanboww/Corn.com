@@ -1,1 +1,1 @@
-All icons from https://https://www.flaticon.com/
+All icons from https://www.flaticon.com/
