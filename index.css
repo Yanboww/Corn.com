@@ -1,0 +1,204 @@
+#posts{
+    background-color: yellowgreen;
+    margin-bottom: 1%;
+    color: darkgoldenrod;
+    padding:5px;
+    text-align: left;
+    border-radius: 10px;
+    border-color: yellow;
+    border-style:dashed;
+    border-width: 5px;
+    width: 60%;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+#logo{
+    margin-top: -20px;
+    width: 100px; 
+}
+.icon{
+    margin-bottom: -40px;
+    margin-left: -80px;
+    width: 50px;
+}
+#left-bar{
+    margin-top: -10px;
+    float:left;
+    width: 180px;
+    height: 130vh;
+    margin-left: -34px;
+    border-color: rgb(138, 138, 87);
+    border-width: 3px;
+    border-style:solid;
+}
+#home{
+    margin-bottom: -40px;
+    margin-left: -80px;
+}
+.button{
+    margin-left:80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 110px;
+}
+#home-btn{
+    margin-top: 4px;
+}
+.secondary-icon{
+    margin-bottom: -40px;
+    margin-left: 25px;
+}
+.btn{
+    margin-top: 2px;
+}
+#crackle{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    color:darkgoldenrod;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 110px;
+}
+#mode{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border-style: none;
+    background-image: url( 'img/light-mode.png' );
+    background-size: 80px 80px;
+}
+#post-section{
+    padding:10px;
+    width: 60%;
+    border-color: rgb(138, 138, 87);
+    border-style: solid;
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 60%;
+    height: 70px;
+    margin-bottom: 30px;
+}
+#post-bar{
+    padding: 10px;
+    width: 75%;
+    margin-left: 4%;
+}
+#pfp{
+    float: left;
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+}
+#top-icon{
+    margin-bottom: 20px;
+    margin-left: 160px;
+    background-color: yellowgreen;
+    border-color: yellow;
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-style: dashed;
+}
+.post-btns{
+    float: left;
+    width: 4%;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 0.6%;
+}
+#post-message{
+    float: right;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    width: 20%;
+    padding: 5px;
+    margin-right: 5%;
+    border-color: yellowgreen;
+    color:darkgoldenrod
+}
+#title{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+}
+#posted-img{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+#user{
+    color:rgb(68, 108, 209);
+}
+#exit{
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: red;
+    color:black;
+    font-weight: bold;
+}
+#posted-btns{
+    align-self: center;
+    width: 5%;
+    margin-left: 22%;
+}
+#login{
+    background-color: yellowgreen;
+    border-color: darkgoldenrod;
+    border-style: dotted;
+    border-width: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#log-bg{
+    background-image: url("img/login.jpg");
+    background-size: 100%;
+
+}
+#user-ipt, #pass-ipt, #enter{
+    margin-left: 25%;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+#welcome{
+    background-color: yellow;
+    margin-top: 180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 10px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 10px;
+    width: 50%;
+    margin-left: 25%;
+
+}
+#user-name{
+    margin-top: 60%;
+    margin-left: 13%;
+    font-weight: bolder;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color:yellow;
+    border-width: 2px;
+
+}
