@@ -76,10 +76,14 @@ getFirst4()
             const commentUJ = await commentU.json()
             let commentUP = document.createElement("p")
             commentUP.id = "user"
-            commentUP = "@" + JSON.stringify(commentUJ.userName)
+            commentUP.innerText = "@" + JSON.stringify(commentUJ.username)
             div.appendChild(commentUP)
             const commentC = await fetch("https://jsonplaceholder.typicode.com/comments/3")
             const commentCJ = await commentC.json()
+            let commentCP = document.createElement("p")
+            commentCP.id = "comment-body"
+            commentCP.innerText= JSON.stringify(commentCJ.body)
+            div.appendChild(commentCP)
 
         }
         div.id="posts"

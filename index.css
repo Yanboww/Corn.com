@@ -112,7 +112,7 @@
     width: 4%;
     height: auto;
     margin-left: 4%;
-    margin-top: 0.6%;
+    margin-top: 0.2%;
 }
 #post-message{
     float: right;
@@ -201,4 +201,12 @@
     border-color:yellow;
     border-width: 2px;
 
+}
+#comment-body{
+    background-color: bisque;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-top: -40px;
+    padding-bottom: 10px;
+    border-style: dashed;
 }
